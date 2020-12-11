@@ -1,0 +1,41 @@
+[8:57 PM, 12/10/2020] +91 91716 46424: python program cabe be implemented by two ways
+
+1)Interactive mode(Interpretive mode)
+2)Batch mode
+
+
+Interative(Interpertive mode)
+
+* the concept of submmitiing one by one python statments explicitly in python interpreter
+  >>>(command prompt of python)
+* we use python shell for this purpose to pass command/statment line by line
+* shell it is find in python software and also open by command prompt by passing command python(if path is set)
+* it best when leaning predeined function ,operator uses,test differenct small code which used in any big application
+* it make learning fast and easy
+* it is not good for development mode
+
+
+Batch(C/C++/java)
+writing all statement and submit all statement to compiler--translate--passto ---…
+[8:59 PM, 12/10/2020] +91 91716 46424: print("one")
+print("two")
+print("three")
+print(2+2)
+input()
+[9:09 PM, 12/10/2020] +91 91716 46424: python language fundametals
+
+Character set:
+    set of valid character in python programming language
+
+
+                                   //set of character(a-z)/(A-Z)(0-9) +,-,*,/)
+                                       Standard   code which equal to any character
+                                        a=97(standcode code)  --->human-----information---computer
+American----Standard code          for information interchange
+
+                                        z=122(standard code
+                                  //Computer 0101001(Binary)
+    C---ASCII(256)----english language character only
+    C++ASCII/UNICODE(65535)
+
+                        python follow unicode(multiple language support)
