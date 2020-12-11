@@ -15,3 +15,58 @@
    Where it is not required datatype to define explicitly,
    automatically understand/recognize by compiler itself
    by value you assign to variable
+   
+   [9:03 PM, 12/11/2020] +91 91716 46424: //Datatype in python
+   C/C++/java
+   Static Typed language
+   Datatype tell us type value(data),size in memory and range of value
+                                  //  xxxx            // xxxx
+   in static typed language  it must to define type of variable
+   explicitly
+   
+       int       ino;
+   //explicitly      
+       float      fno;
+	   
+   Dynamic Typed Languages
+   (python,javascript,php,perl)
+   Where it is not required datatype to define explicitly,
+   automatically understand/recognize by compiler itself
+   by value you assign to variable	                              
+
+  python language support following datatypes
+  1)int  <class,int>
+  2)float <class,float>
+  3)complex <class,complex>
+  4)bool  <class,bool>
+  5)str  <class,str>
+  6)list <class,list>
+  7)tuple <class,tuple>
+  8)set  <class,set>
+  9)dict <<class,dict>
+
+
+Datatype:
+	def:
+		Every Datatype in python language is interally 
+		implemented as class and create its object
+
+python language datatypes are categorized into two types
+
+they are:
+	1.Fundamental types
+	   int,float,complex,bool,str
+	   
+	   <class,int>
+	2.Collection type
+	   list,tuple,set,dict
+	   
+	
+//Object type in python
+
+1.Immutable object
+  Object are not allowed to change once assign
+  int,float,complex,bool,str,tuple
+2.Mutable object
+  Object are allowed to add and remove new elements
+  list,set,dict
