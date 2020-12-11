@@ -1,0 +1,25 @@
+Download and install python in your machine(computer)
+step 1:
+	search python
+	web link python.org---open
+	
+step2:
+	click on download
+	 ---specific release choose
+	 
+	    --->3.7.9----> click-----windowsx86-64 executable installer-->download
+	               download--folder
+	               cut----in any drive--folder(save)
+	               
+step3:
+	doubleclick on python installer
+	wait
+	window will open---> check add python in given checkbox(** compulsory)
+	
+step4:
+	after installation----> open cmd(command prompt)
+    type command python
+    will show you
+    >>>
+     ----> python prompt
+     it meaning python install and its path is set
