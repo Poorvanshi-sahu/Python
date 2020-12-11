@@ -1,0 +1,17 @@
+//Datatype in python
+   C/C++/java
+   Static Typed language
+   Datatype tell us type value(data),size in memory and range of value
+                                  //  xxxx            // xxxx
+   in static typed language  it must to define type of variable
+   explicitly
+   
+       int       ino;
+   //explicitly      
+       float      fno;
+	   
+   Dynamic Typed Languages
+   (python,javascript,php,perl)
+   Where it is not required datatype to define explicitly,
+   automatically understand/recognize by compiler itself
+   by value you assign to variable
