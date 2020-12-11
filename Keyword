@@ -1,0 +1,21 @@
+python = 33
+
+Operator level keyword
+True,False,None(***special keywor because its first letter is capital)
+and or not in is
+
+Control statement
+if else elif while for pass(*) break continue
+
+Exception handling
+try except raise finally
+    
+class level 
+    class,del,assert ,pass(*)
+    
+function level
+def global nonlocal return yield lambda,pass(*) 
+file
+with
+module/package level keyword
+import from as
