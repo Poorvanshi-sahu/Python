@@ -1,0 +1,166 @@
+Operator in python
+
+   Operator : operator which operator on operands ,its symbol  used to calc,compare,assign
+   
+   operand:   operand constant and variable in programming instruction
+   
+      x=y+2
+      
+      varible x,y
+      constant--2
+      
+      operator ===>+,=
+      
+Types of operator
+
+1)Arithmetic operator
+   +,-,,/ ,//(floor division),*(exponent)
+   %(remainder)
+   
+2)Relational/Comparision operator
+  <,<=,>=,==,!=
+  
+3)* Logical operators
+    &&,||,!===C/C++/java
+//change
+    and,or,not---> keywords operator level
+    
+4) bitwise operator
+   &,|,~ ^,>>,<<
+   
+5) Assignment operator
+  = 
+   //shorthand 
+    +=,-= ,=,/=,//=,*=
+    &=,/=,^=,>>=,<<=
+    //special operator  
+6)  Identity operator
+    is ,is not
+7)  Membership operator
+    in ,not in
+    
+    
+                                                    PRACTICE
+                                                 
+>>> var1=100
+>>> var2=200
+>>> var1+var2
+300
+>>> var1=100
+>>> var2="one"
+>>> var1+var2
+Traceback (most recent call last):
+  File "<pyshell#40>", line 1, in <module>
+    var1+var2
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> var1="One"
+>>> var2="two"
+>>> var1+var2
+'Onetwo'
+>>> #concate
+>>> var1=100
+>>> var2=22.22
+>>> var1+var2
+122.22
+>>> var1=True
+>>> var2=20
+>>> var1+var2
+21
+>>> True*2+False*5+True
+3
+>>>
+
+ >>> 20-20
+0
+>>> 20-2.2
+17.8
+>>> 20-"20"
+Traceback (most recent call last):
+  File "<pyshell#59>", line 1, in <module>
+    20-"20"
+TypeError: unsupported operand type(s) for -: 'int' and 'str'
+>>> "20"-"20"
+Traceback (most recent call last):
+  File "<pyshell#60>", line 1, in <module>
+    "20"-"20"
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+>>> "20"+"20" #concat
+'2020'
+>>> 20-True
+19
+>>> True-True
+0
+>>> 2+3j-2
+3j
+
+>>> 2*3
+6
+>>> 2*2.2
+4.4
+>>> 2*"sushil"
+'sushilsushil'
+>>> 2.2*"sushil"
+Traceback (most recent call last):
+  File "<pyshell#68>", line 1, in <module>
+    2.2*"sushil"
+TypeError: can't multiply sequence by non-int of type 'float'
+>>> True*2
+2
+>>> False*2
+0
+>>> 2+3j*2
+(2+6j)
+>>> (2+3j)*2
+(4+6j)
+>>>
+
+>>> 2*2.2
+4.4
+>>> 2*"sushil"
+'sushilsushil'
+>>> 2.2*"sushil"
+Traceback (most recent call last):
+  File "<pyshell#68>", line 1, in <module>
+    2.2*"sushil"
+TypeError: can't multiply sequence by non-int of type 'float'
+>>> True*2
+2
+>>> False*2
+0
+>>> 2+3j*2
+(2+6j)
+>>> (2+3j)*2
+(4+6j)
+>>> 20/2
+10.0
+>>> 20/3
+6.666666666666667
+>>> 20//3
+6
+>>> True/True
+1.0
+>>> True//True
+1
+>>> "One"/"One"
+Traceback (most recent call last):
+  File "<pyshell#78>", line 1, in <module>
+    "One"/"One"
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+>>> (20+30j)/2
+(10+15j)
+>>> 2**2
+4
+>>> 2**5
+32
+>>> 2**10
+1024
+>>> 2.2*2
+4.4
+>>> 2.2**5
+51.53632000000002
+>>> "sushil"**2
+Traceback (most recent call last):
+  File "<pyshell#85>", line 1, in <module>
+    "sushil"**2
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+                                                 
