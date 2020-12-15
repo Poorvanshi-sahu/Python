@@ -1,0 +1,68 @@
+>>> var1=100
+>>> var2=11.11
+>>> var3=2+3j
+>>> var4=True
+>>> type(var1)
+<class 'int'>
+>>> type(var2)
+<class 'float'>
+>>> type(var3)
+<class 'complex'>
+>>> type(var4)
+<class 'bool'>
+>>> var5='a'
+>>> var6='z'  #C/C++/java/C# its character but in python 'a'  "a"--it is python string <class,str>
+>>> var7="a"
+>>> var8='a"
+SyntaxError: EOL while scanning string literal
+>>> var8="a"
+>>> var9='sushil kumar patel'
+>>> var10="sushil kumar patel"
+>>> type(var5)
+<class 'str'>
+>>> type(var6)
+<class 'str'>
+>>> type(var7)
+<class 'str'>
+>>> type(var8)
+<class 'str'>
+>>> type(var9)
+<class 'str'>
+>>> type(var10)
+<class 'str'>
+>>> var11=''' sushil kumar patel '''
+>>> var12=""" sushil kumar patel """
+>>> type(var11)
+<class 'str'>
+>>> type(var12)
+<class 'str'>
+>>>
+
+constant/literals
+             number system in python
+             binary  '0b1101111'  0b(prefix)
+             octal   '0o157'     0o(prefix)
+             hexa     '0x6f'     0x(prefix)
+             decimal  111    
+Integer
+            
+             binary  '0b1101111'  0b(prefix)
+             octal   '0o157'     0o(prefix)
+             hexa     '0x6f'     0x(prefix)
+             decimal  111    
+float
+               11.11 
+complex
+                 2+2j(complex)
+
+string
+    def:  string its group of zero of more character C/C++/java
+         ** python---zero or more character
+            ' '
+            "" ""
+            'a'
+            'abc'
+            
+            >>> var=''
+>>> type(var)
+<class 'str'>
