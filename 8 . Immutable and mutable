@@ -1,0 +1,41 @@
+[8:57 PM, 12/14/2020] +91 91716 46424: Immutable Objects
+
+The objects which doesn't allow to  modify the contents of those objects 
+are know as immutable objects
+
+x=10 ---if object found in memory create new object  --by doesnt allow to modify same object
+x=20 -----if object found in memory create new object ----by doesnt allow to modify same object
+x=30  -----if object found in memory create new object -----by doesnt allow to modify same object
+
+//when you assign value  either create new object or ref id of current value containg object
+
+*Before creating immutable object with same content python interpreter verifies is already any object is
+avaiable in memory
+* if present in memory assign its id to reference variable
+
+* if not present create new object and assign value , assign object id to reference variable
+[9:08 PM, 12/14/2020] +91 91716 46424: Immutable Objects
+
+The objects which doesn't allow to  modify the contents of those objects 
+are know as immutable objects
+
+int,float,complex,boolean,string
+x=10 ---if object found in memory create new object  --by doesnt allow to modify same object
+x=20 -----if object found in memory create new object ----by doesnt allow to modify same object
+x=30  -----if object found in memory create new object -----by doesnt allow to modify same object
+
+//when you assign value  either create new object or ref id of current value containg object
+
+*Before creating immutable object with same content python interpreter verifies is already any object is
+avaiable in memory
+* if present in memory assign its id to reference variable
+
+* if not present create new object and assign value , assign object id to reference variable
+
+** its slow but better memory management
+
+
+mutable objects
+ The object which allow to modify(add,remove/replace) the contents of those objects
+ are know as mutable object(later we learn)
+ tuple,list,set ,dict
