@@ -1,0 +1,173 @@
+>>> True-False
+1
+>>> 2*2
+4
+>>> 2*2.0
+4.0
+>>> 2*'2'
+'22'
+>>> 15*"sushil"
+'sushilsushilsushilsushilsushilsushilsushilsushilsushilsushilsushilsushilsushilsushilsushil'
+>>> 2.0*"sushil"
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    2.0*"sushil"
+TypeError: can't multiply sequence by non-int of type 'float'
+>>> "2"*"sushil"
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    "2"*"sushil"
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> True*2*"sushil"
+'sushilsushil'
+>>> 10/3
+3.3333333333333335
+>>> 10//3
+3
+>>> 10.0//3.0
+3.0
+>>> 2**5
+32
+>>> 2.2**2
+4.840000000000001
+>>> x=10
+>>> y=20
+>>> x>y
+False
+>>> x<y
+True
+>>> x>=y  #x>y or x==y   any one is true --result is true
+False
+>>> x<=y
+True
+>>> x==y
+False
+>>> x!=y
+True
+>>> x<y+3
+True
+>>> (x<y)+3
+4
+>>> True>False<True
+True
+>>> True>False and False<True
+True
+>>>
+
+
+
+1 and True and False and 1 and True
+
+
+
+>>> 2+2
+4
+>>> '2'+2
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    '2'+2
+TypeError: can only concatenate str (not "int") to str
+>>> '2'+'2' #concate
+'22'
+>>> "2"+"2"
+'22'
+>>> True+2
+3
+>>> True*2+False-2+5
+5
+>>> 2-2
+0
+>>> 2-2.0
+0.0
+>>> '2'-2
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    '2'-2
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+>>> '2'-'2'
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    '2'-'2'
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+>>> True-False
+1
+>>> 2*2
+4
+>>> 2*2.0
+4.0
+>>> 2*'2'
+'22'
+>>> 15*"sushil"
+'sushilsushilsushilsushilsushilsushilsushilsushilsushilsushilsushilsushilsushilsushilsushil'
+>>> 2.0*"sushil"
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    2.0*"sushil"
+TypeError: can't multiply sequence by non-int of type 'float'
+>>> "2"*"sushil"
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    "2"*"sushil"
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> True*2*"sushil"
+'sushilsushil'
+>>> 10/3
+3.3333333333333335
+>>> 10//3
+3
+>>> 10.0//3.0
+3.0
+>>> 2**5
+32
+>>> 2.2**2
+4.840000000000001
+>>> x=10
+>>> y=20
+>>> x>y
+False
+>>> x<y
+True
+>>> x>=y  #x>y or x==y   any one is true --result is true
+False
+>>> x<=y
+True
+>>> x==y
+False
+>>> x!=y
+True
+>>> x<y+3
+True
+>>> (x<y)+3
+4
+>>> True>False<True
+True
+>>> True>False and False<True
+True
+>>> 1 and 1
+1
+>>> True and True
+True
+>>> 1 and True
+True
+>>> True and 1
+1
+>>> 0 and false
+0
+>>> 0 and False
+0
+>>> 1 and False
+False
+>>> False and 1
+False
+>>> False and False
+False
+>>> 4 and 4
+4
+>>> 4 and True
+True
+>>> True and 4
+4
+>>> True and 0
+0
+>>> 0 and True
+0
