@@ -1,0 +1,139 @@
+ //bitwise operators
+
+          Decimal---Binary
+          
+          &
+          x=5
+          y=6
+                    ----Decimal---Binary(bitwise operation)
+                    
+                    x=0101
+                    y=0110
+                    &------
+                      0100---final ans passed decimal---> 4
+                                                  1&1---> 1 otherwise 0
+          
+          |
+          
+          x=5
+          y=6
+                    ----Decimal---Binary(bitwise operation)
+                    
+                    x=0101
+                    y=0110
+                    |------
+                      0111---final ans passed decimal---> 7
+                                                  0&1---> 1           otherwise 0
+                                                  1&1---->1
+												  1&0--->1  
+          ^
+          
+          x=5
+          y=6
+                    ----Decimal---Binary(bitwise operation)
+                    
+                    x=0101
+                    y=0110
+                    |------
+                      0011---final ans passed decimal---> 3
+                                                  0&1---> 1           otherwise 0
+                                                  1&1---->0
+												  1&0--->1 
+												  0&0--->0
+												  //**when odd number of one's so answer 1 
+                                                 //only one time 1 so ans is 1 otherwise answer 0
+          ~
+          >>
+          <<
+ x=23
+y=18
+ &
+ |
+ ^
+dont tell binary---give me answer in decimal only
+ &
+          x=23
+          y=18
+                    ----Decimal---Binary(bitwise operation)
+                    
+                    x=23 16 8 4 2 1
+                         1  0 1 1 1
+                    y=18 1  0 0 1 0
+                    &------
+                         1  0 0 1 0 =18---final ans passed decimal---> 4
+                                                  1&1---> 1 otherwise 0
+          
+          |
+          
+                    x=23 16 8 4 2 1
+                         1  0 1 1 1
+                    y=18 1  0 0 1 0
+                    |    ----------
+                         1  0 1 1 1 =23
+          
+          x=5
+          y=6
+                    ----Decimal---Binary(bitwise operation)
+                    
+		  x=23 16 8 4 2 1
+                         1  0 1 1 1
+                    y=18 1  0 0 1 0
+                    &------
+                         0  0 1 0 1 =5        
+						 
+						 //homework where and when use & | ^ in programming
+
+
+main(){
+int x; //Declare(reserve memory)
+
+printf("\nAddress of x=%x anad value=%d",&x,x); //garbage or zero
+                       /*  x
+                        --------
+                         40
+                        --------
+                        2222x(memory allocation)*/
+x=10;
+
+printf("\nAddress of x=%x anad value=%d",&x,x);
+x=20;
+
+printf("\nAddress of x=%x anad value=%d",&x,x);
+x=30;
+
+printf("\nAddress of x=%x anad value=%d",&x,x);
+x+=20; //x=x+20	   //x=30+20=50
+
+printf("\nAddress of x=%x anad value=%d",&x,x);
+}
+
+>>> x=5
+>>> y=6
+>>> x&y
+4
+>>> x|y
+7
+>>> x^y
+3
+>>> x=None
+>>> print("id =",id,"value=",x)
+id = <built-in function id> value= None
+>>>  print("id =",id(x),"value=",x)
+ 
+SyntaxError: unexpected indent
+>>> x=None
+>>> print("id =",id(x),"value=",x)
+id = 140706013330656 value= None
+>>> x=10
+>>> print("id =",id(x),"value=",x)
+id = 140706013803056 value= 10
+>>> x=20
+>>> print("id =",id(x),"value=",x)
+id = 140706013803376 value= 20
+>>> x+=30 #x=x+30=20+30=50(assign) create new object-- initialze 50---assign object ref to x
+>>> print("id =",id(x),"value=",x)
+id = 140706013804336 value= 50
+>>> print(x)
+50
+>>> id(x)
+140706013804336
