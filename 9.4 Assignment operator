@@ -1,0 +1,9 @@
+Assinment operator
+         //** defining(Declare+intialize)
+         
+         x=10----(Create object(Memory)---after selection classtype---initialize value)
+         
+         x=y=10  yes(Create single object---assign to ref x  and y)
+		 
+		 x+=10  ---(fetch value from previous object---and create new object with increment of 10
+		          and assign reference of new object to x)
