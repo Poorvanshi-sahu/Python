@@ -1,0 +1,218 @@
+Difference between C and Python program
+
+C
+
+#include<stdio.h>
+main()
+{ 
+  float f1,f2;
+  printf("Enter any two float number");
+  scanf("%f%f",&f1,&f2);
+  printf("Sum=%f",(f1+f2));
+}
+
+
+Python
+
+num1=float(input("Enter any two number"))
+num2=float(input("Enter second number"))
+print("Sum=",num1+num2)
+
+
+INPUT FUNCTIONS
+
+input()--->It is use to take input but by default it treat all the input value as string
+
+For typecasting we have Functions---->
+int()
+float()
+complex()
+bool()
+
+>>> value=input()
+12.3
+>>> type(value)
+<class 'str'>
+>>> num1=input("Enter any value:")
+Enter any value:100
+>>> num2=input("Enter any value:")
+Enter any value:200
+>>> type(num1)
+<class 'str'>
+>>> type(num2)
+<class 'str'>
+>>> num1+num2 #concate
+'100200'
+>>> num1=int(input("Enter any value:"))
+Enter any value:100 
+>>> num2=int(input("Enter second value:"))
+Enter second value:200
+>>> num1+num2
+300
+>>> type(num1)
+<class 'int'>
+>>> type(num2)
+<class 'int'>
+
+
+>>> input(promtp=None,/) #syntax
+
+>>> #by default accept value as string---but use type type casting function
+
+>>> #int()
+#float() 
+#bool()
+#str() 
+#complex()
+#eval()
+
+>>> strval=input("Enter string value:")
+Enter string value:hello sumit
+>>> intval=int(input("Enter int value:"))
+Enter int value:23
+>>> floatval=float(input("Enter float value:"))
+Enter float value:55.5
+>>> cmpvalue=complex(input("Enter complex value:"))
+Enter complex value:2+3j
+>>> boolvalue=bool(input("Enter boolean value:"))
+Enter boolean value:True
+>>> print("strval type=",type(strval),"Value of strval=",strval)
+strval type= <class 'str'> Value of strval= hello sumit
+
+>>> print("intval type=",type(intval),"Value of intval=",intval)
+intval type= <class 'int'> Value of intval= 23
+
+
+print("sushil",end=' \t')
+print("ravi",end='\t')
+print("kapil",end='\t')
+#print(value,....sep=' ',end='\n',file=sys.stdout,flush=False) #by default sep= ' ' empty space
+#by defaule end='\n'  new line
+#but your are allowed to change by writing/definig again sep=' '   and end=' '
+
+>>> print(100)
+100
+>>> print(100,200)
+100 200
+>>> print("sushil","sumit")
+sushil sumit
+>>> print(10,20,sep='  ')
+10  20
+>>> print(10,20,30,40,50,sep='#')
+10#20#30#40#50
+>>> print(10,20,30,40,50,sep='%')
+10%20%30%40%50
+>>> print("sushil","ravi","mohan","sohan",sep='')
+sushilravimohansohan
+>>> print("hello")
+
+
+
+implementation or python program
+
+1.Interative mode(use-----IDLE/Shell)
+
+2.BatchMode
+     Editor
+   ----Notepad
+   ----notepad++  --> 
+   ----sublime
+   -----vscode      
+                      ----->python run---> 
+                      1.Compiler+interpreter-----console
+                      2.Installation----> laucher---direcly program--translare--run
+                      3.IDLE---open--compile+run
+    
+	      IDE(C/C++/java)                  
+   IDLE----python IDLE
+           third party IDLE
+           pycharm
+           netbeans
+           eclipse
+           
+           
+           //web based---->
+           
+           
+1.Interative mode(use-----IDLE/Shell)
+
+2.BatchMode
+     Editor
+   ----Notepad ----step1
+                      1.open notepad texteditor its inbuilt we windows
+                        linux textEdit
+                      2.write your code and save file with .py extension
+                      3.open (cmd(command prompt in window))
+                        or linux
+                        open terminal
+                               *** test python in working or not (path is set of not)
+                                     c:\username>python -v 
+                                     version of python -- its confirm you python is set 
+                     
+					 4.
+					  //first change location where is your file in computer 
+					  //using cd command
+					 write command here python local and nameofpythonfile.py
+                     
+   ----notepad++(richeditor)  --> 
+   
+   ----Notepad++ ----step1
+                      1.open notepad++ texteditor its after download and install 
+                      
+                      2.write your code and save file with .py extension
+                      3.open (cmd(command prompt in window))
+                        or linux
+                        open terminal
+                               *** test python in working or not (path is set of not)
+                                     c:\username>python -v 
+                                     version of python -- its confirm you python is set 
+                     
+					 4.
+					  //first change location where is your file in computer 
+					  //using cd command
+					 write command here python local and nameofpythonfile.py
+                     
+   ----sublime(richeditor)
+   ---step1
+                      1.open notepad++ texteditor its after download and install 
+                      
+                      2.write your code and save file with .py extension
+                      3.open (cmd(command prompt in window))
+                        or linux
+                        open terminal
+                               *** test python in working or not (path is set of not)
+                                     c:\username>python -v 
+                                     version of python -- its confirm you python is set 
+                     
+					 4.
+					  //first change location where is your file in computer 
+					  //using cd command
+					 write command here python local and nameofpythonfile.py
+
+   -----vscode      
+---step1
+                      1.open notepad++ texteditor its after download and install 
+                      
+                      2.write your code and save file with .py extension
+                      3.open (cmd(command prompt in window))
+                        or linux
+                        open terminal
+                               *** test python in working or not (path is set of not)
+                                     c:\username>python -v 
+                                     version of python -- its confirm you python is set 
+                     //* ? is any diffent way is vs code xxxxx
+					 4.
+					  //first change location where is your file in computer 
+					  //using cd command
+					 write command here python local and nameofpythonfile.py
+    
+	      IDE(C/C++/java)                  
+   IDLE----python IDLE
+           third party IDLE
+           pycharm
+           netbeans
+           eclipse
+           
+           
+           //web based---->           
+         
