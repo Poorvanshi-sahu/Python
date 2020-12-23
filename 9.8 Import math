@@ -1,0 +1,113 @@
+[8:33 PM, 12/23/2020] Sushil Sir C++: >>> #help("modulename")
+>>> import math
+>>> #help(modulename.funname)
+>>> help(math.cos)
+Help on built-in function cos in module math:
+
+cos(x, /)
+    Return the cosine of x (measured in radians).
+
+>>> pow(2,5)
+32
+>>> 2**5
+32
+>>> import math
+>>> math.pow(2,5)
+32.0
+>>> math.sqrt(25)
+5.0
+>>> import math as m
+>>> m.sqrt(25)
+5.0
+>>> from math import*
+>>> sqrt(25)
+5.0
+>>> sin(90)
+0.8939966636005579
+>>> sin(pi/180*90)
+1.0
+>>> from math import sqrt
+>>> sin(90)
+0.8939966636005579
+[8:35 PM, 12/23/2020] Sushil Sir C++: >>> from math import sqrt
+>>> sin(90)
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    sin(90)
+NameError: name 'sin' is not defined
+>>> sqrt(25)
+5.0
+>>> # from import is specific import---function
+
+[8:51 PM, 12/23/2020] Sushil Sir C++: >>> from math import sqrt
+>>> sin(90)
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    sin(90)
+NameError: name 'sin' is not defined
+>>> sqrt(25)
+5.0
+>>> # from import is specific import---function
+>>> from math import* # * it means all
+>>> sin(90)
+0.8939966636005579
+>>> factorial(5)
+120
+>>> factorial(25)
+15511210043330985984000000
+>>> 23%2
+1
+>>> fmod(23,2)
+1.0
+>>> 23.2%2
+1.1999999999999993
+>>> fmod(23.2,2)
+1.1999999999999993
+>>> fsum(10,20)
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    fsum(10,20)
+TypeError: fsum() takes exactly one argument (2 given)
+>>> fsum((10,20))
+30.0
+>>> fsum((11,22,33,44,55,66))
+231.0
+>>> gcd(12,2)
+2
+>>> gcd(12,15,21)
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    gcd(12,15,21)
+TypeError: gcd expected 2 arguments, got 3
+>>> gcd(12,15)
+3
+>>> log(2)
+0.6931471805599453
+>>> log10(2)
+0.3010299956639812
+>>> exp(2)
+7.38905609893065
+>>> isfinite(1.1111111111111111111111111111111111111)
+True
+>>> isfinite(111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111)
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    isfinite(111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111)
+OverflowError: int too large to convert to float
+>>> 23/3
+7.666666666666667 #round off
+>>> 23/5
+4.6
+>>> 22/7
+3.142857142857143
+>>> floor(3.7) #round down
+3
+>>> floor(3.9)
+3
+>>> ceil(3.5) #round up
+4
+>>> ceil(3.1)
+4
+>>> ceil(3.000000000000001)
+4
+>>>
