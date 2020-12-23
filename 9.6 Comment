@@ -1,0 +1,86 @@
+Comment:
+Comment its not a part of programm,compiler skip commented part of program
+it used to tell about part of program or skip lined or codes
+
+two ways to comment in python
+1.single line comment  #
+                         --->C/C++/java  //
+2.multicomment
+
+   """  """
+
+   ''''   '''
+
+
+'''
+
+
+
+
+'''num1=float(input("Enter first value:"))
+num2=float(input("Enter first value:"))
+num3=float(input("Enter first value:")) '''
+print("Enter three values:")
+num1=float(input());num2=float(input());num3=float(input())
+#when you are writing multiple statement as single statement need simicolon to terminate
+sum=num1+num2+num3
+print("sum=",sum)
+print("average=",sum/3.0)
+
+
+
+
+swap of two values
+
+x=10
+y=20
+
+ ===>  t=x
+       x=y
+	   y=t
+       
+	   
+	   x=x+y
+	   y=x-y
+	   x=x-y
+	   
+	   x=x^y
+	   y=x^y
+	   x=x^y
+	   
+	   //is their any other way to swap two values in python
+     
+     
+     
+     
+     
+     >>> x,y=10,20
+>>> print(x)
+10
+>>> print(y)
+20
+>>> x,y,z=11,22,33
+>>> print(x)
+11
+>>> print(y)
+22
+>>> print(x)
+11
+
+
+
+                                                      ESCAPE CHARACTERS
+                                                      
+ \a  xxx
+\b  xxx
+
+\v   xxx
+\r   xxx
+\f   xxxx
+
+\t  tab=4spaces
+\n  newline
+
+\'
+\"                                                     
+>>>
