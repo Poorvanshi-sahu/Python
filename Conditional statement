@@ -1,0 +1,121 @@
+Conditional Statement 
+
+  1. if 
+		if  test-condition:
+			----------
+			----------
+			----------
+			----------
+  
+  
+  2. if then else
+  
+		if  test-condition:
+			----------
+			----------
+			----------
+			----------
+		else:
+			----------
+			----------
+			----------
+  
+  3. if elif then else=multioptional/Ladder of if 
+  
+		if  test-condition:
+			----------
+			----------
+			----------
+			----------
+		elif test-condition:
+			----------
+			----------
+			----------
+		elif test-condition:
+			---------
+			---------
+			---------
+			---------
+		.
+		.
+		else:
+			--------
+			--------
+			--------
+			--------
+  
+  4. nested if(if inside another if  is know as nested if)
+    
+       if  test-condition: #outter if
+       		-----------
+       		-----------
+       		-----------
+       		if Test-condition: #inner if 
+       			----------
+       			----------
+       			----------
+       		else:
+       			----------
+       			----------
+       			----------
+       	else:
+       		--------
+       		--------
+       		--------
+       		--------
+          
+          
+          
+          
+          
+          if 3>2: 
+    #start block/indentation level
+    print("True")
+    print("correct")
+    #exit from if /end indentation--back one level of indentation
+    
+else:
+    print("false")
+    print("incorrect")
+    
+    
+    
+    
+    >>> x,y=10,20
+>>> x,y=y,x
+>>> print("x=",x)
+x= 20
+>>> print("y=",x)
+y= 20
+>>> print("y=",y)
+y= 10
+>>> x,y,z=10,20,30
+>>> x,y,z=z,x,y
+>>> print(x)
+30
+>>> print(y)
+10
+>>> print(z)
+20
+>>>
+
+
+
+
+[8:52 PM, 12/24/2020] Sushil Sir C++: num1=float(input("Enter first value:"))
+num2=float(input("Enter second value:"))
+
+#compare(only if)
+if num1>num2:
+    print(num1,"value is big")
+if num2>num1:
+    print("Big value is ",num2)
+
+num1=float(input("Enter first value:"))
+num2=float(input("Enter second value:"))
+
+#compare(only if)
+if num1>num2:
+    print(num1,"value is big")
+else:
+    print("Big value is ",num2)
