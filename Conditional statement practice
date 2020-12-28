@@ -60,3 +60,29 @@ elif cv>=65 and cv<=90:
 else:
     print("its not alphabet")
     print("its not alphabet")
+    
+    
+    
+    
+    cv=input("Enter any character:") #str
+cv=cv[0]  #new object
+
+if cv=='a' or cv=='e' or cv=='i' or cv=='o' or cv=='u' or cv=='A' or cv=='E' or cv=='I' or cv=='O' or cv=='U':
+    print("its vowel")
+else:
+    print("its consonant")
+
+if cv=='a':
+    print("its vowel")     
+elif cv=='e':
+     print("its vowel")
+         
+elif cv=='i':
+     print("its vowel")    
+elif cv=='o':
+     print("its vowel")    
+elif cv=='u':
+     print("its vowel")
+
+else:
+    print("its consonant")
