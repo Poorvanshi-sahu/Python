@@ -86,3 +86,29 @@ elif cv=='u':
 
 else:
     print("its consonant")
+    
+                                                         NESTED IF
+                                                         
+ 1.sum 2.sub 3.mul 4.division
+print("1.sum")
+print("2.sub")
+print("3.mul")
+print("4.division")
+ch=int(input("Enter your choice:"))
+
+num1=0
+num2=0
+if ch>=1 and ch<=4:
+    num1=float(input("Enter first value:"))
+    num2=float(input("Enter second value:"))
+
+if ch==1:
+    print("Sum=",num1+num2)
+elif ch==2:
+    print("Sub=",num1-num2)
+elif ch==3:
+    print("mul=",num1*num2)
+elif ch==4:
+    print("div=",num1/num2)
+else:
+    print("wrong choice")                                                        
