@@ -1,0 +1,231 @@
+#looping/iteration
+
+  def: to repeat instruction of set of instruction(program)
+
+  C/C++/java/javascript/php
+
+   1.while        2.do..while    3.for    4.(C++/java) for each
+
+   1.while   ---> Iteration
+
+      syntax:
+          1.
+          Declaration loop var
+          while test-condition:
+              -------------------
+              -------------------
+              modify/update counter
+              ------------------
+          2.
+          Declaration loop var
+          while test-condition:
+              -------------------
+              -------------------
+              modify/update counter
+              ------------------
+          else:
+              --------------
+              --------------
+   2.for each----
+
+
+                       (i).(for range()  )
+                                a.          //group of value
+                                for var in range(start,stop,end):   #for(start;test;modify(indecrement)
+                                    -----------------------------
+                                    -----------------------------
+                                    -----------------------------
+
+                                b.          //group of value
+                                for var in range(start,stop,end):   #for(start;test;modify(indecrement)
+                                    -----------------------------
+                                    -----------------------------
+                                    -----------------------------
+                               else: #(optional)
+                                   ------------------
+                                   ------------------
+                                   ------------------
+                       ---- each
+                       (ii).(for  each)
+                                                //List,Tuple,set,dict(keys/values)
+                             a.
+                             for  var in groupofvalue:
+                                 --------------------
+                                 --------------------
+                                 --------------------
+                                 --------------------
+                                
+                            b.
+                             for  var in groupofvalue:
+                                 --------------------
+                                 --------------------
+                                 --------------------
+                                 --------------------
+                            else:
+                                ----------------
+                                ----------------
+                                ----------------
+                                
+                                
+                                
+                                
+                                
+  count=1
+while count<=3:
+    print("sushil")
+    #count=count+1 ---shorhand--->count+=1
+    count+=1 # count++ (wrong) no increment and decrement operator found in python
+
+''' tracing----strong----looping very very strong
+count=1
+while   1<=3: #true
+    print("sushil")  ---sushil
+    #count=count+1 ---shorhand--->count+=1
+    #count=1+1---=2
+    count+=1 # count++ (wrong) no increment and decrement operator found in python
+
+----------------------------------------
+
+count=2
+while   2<=3: #true
+    print("sushil")  ---sushil
+    #count=count+1 ---shorhand--->count+=1
+    #count=2+1---=3
+    count+=1 # count++ (wrong) no increment and decrement operator found in python
+-----------------------------------------
+
+count=3
+while   3<=3: #true
+    print("sushil")  ---sushil
+    #count=count+1 ---shorhand--->count+=1
+    #count=3+1---=4
+    count+=1 # count++ (wrong) no increment and decrement operator found in python
+--------------------------------------
+
+count=4
+while 4<=3: #false
+   --------------
+   --------------
+   ---------------
+
+exit from loop  '''
+
+
+n=1
+while n<=10:
+    print(2**n,end=' ')
+    n+=1
+
+print()
+n=1
+while n<=10:
+    print(pow(2,n),end=' ')
+    n+=1
+print()
+import math
+n=1
+while n<=10:
+    print(math.pow(2,n),end=' ')
+    n+=1
+    
+    
+    
+    
+    
+    cont=0;
+while True:
+    n=int(input("Enter any number:"))
+    i=1
+    while i<=10:
+        print(n,"x",i,"=",n*i)
+        i+=1
+    cont=int(input("press 1 to cont.."))
+    if cont!=1:
+        break
+        
+        
+        
+        
+        ''sum of series ----> even number print
+                              find of even number
+
+                              fixed range  //1-20----even value sum---2,4,6,....18,20
+                              Dynamic end
+                              dynamic start end of range'''
+
+r=1
+sum=0
+while r<=20:
+    if r%2==0:
+        print(r,end=" ")
+        sum+=r
+    r+=1
+print("Sum of  Even value=",sum)
+print()
+r=2
+last=int(input("Enter range end point:"))
+while r<=last:
+    print(r,end=" ")
+    r+=2
+print()
+first=int(input("Enter range end point:"))
+last=int(input("Enter range end point:"))
+while first<=last:
+    print(first,end=" ")
+    first+=2
+    
+    
+    
+    
+    sum=0
+st=int(input("Enter range end point:"))  #5
+ed=int(input("Enter range end point:")) #7
+while st<=ed:  # 8<=7  --5 6,7  8(end)
+    sqr=st*st     #7*7=49
+    sum+=sqr   #sum+=49==sum=sum+sqr=61+49=110
+    print(sqr,end=" ") #49
+    st+=1           #8
+    
+
+print("Sum of square of given range value:",sum)
+
+
+
+'''find factorial of number----> import math-----math.factorial(5)---120
+
+//input-----  -ve value are not allowed to factorial
+num=5     n*(n-1)*(n-2) ...(n-(n-1))
+                5*4*3*2*1  --*1 one loop cycle waste
+                5*4*3*2
+
+                f=1                       
+                //reverse loop  5----->2(end) fix
+                f*=num
+                num-=1
+                '''
+num=int(input("Enter any value:"))
+if num>=0:
+    #find factorial
+    f=1
+    while num>=2:
+        f*=num
+        num-=1
+    print("Factorial of number=",f)
+        
+else:
+    print("-ve value is not allwoed to calc factorial")
+    
+    
+    
+    
+    #print factorial between range----nested while loop
+                                                # range-----2-10---while  ----Outter
+                                                #---calc---while factorial   ---inner
+H\W
+while  range:
+
+    while factorial:
+        calc
+        modify/udpate inner loop
+    print("Factoril",f)
+    modify/update outter loop
