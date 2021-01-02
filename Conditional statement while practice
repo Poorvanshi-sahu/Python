@@ -1,0 +1,118 @@
+ #prime number
+#number which divisible by one and itself except 1
+   1
+   
+#number which is having exactly two factors
+  1xxx 2 3 4 5 6 7 8
+
+  prime number starts from 2
+  1--1
+  2--1,2
+  3--1,3
+  4--1,2,4
+  5,-1,5
+  6-1,2,3,6
+  7-1,7
+--->     15---->
+----> 15%1  15%2  15%3  ....      15%15
+    ----1----15--loop
+    1500---
+    1500%1---------------------1500%1500
+    it will take time
+
+#algo
+# if any number is divisible up to  half of itself,its not a prime number
+   ** division start from 2 becuase each number is divisible by 1
+        6---->   6%2---prime
+        1500-->1500%2--not prime
+        7--->    7%2--7%3
+        15--->  15%2 15%3--xx not prime
+
+
+
+while test:
+    --------
+    -------
+else:
+    ------
+    -------
+
+
+    
+
+
+        
+        7/2--3.5=3
+
+
+
+
+
+num=int(input("Enter any number:"))  # 5,12,11,15,1500
+                                                #C/C++/Java
+
+r=2
+num=11
+       #2<=11//2--int/int--->5
+        #6<=5---true
+while r<=num//2 :           #num/2==normal division .fractional---- num//2--floor  (int/int)=int
+    if num%r==0: #if 11%5==0:1==0:false
+        print("its not prime number")
+        break  # exit from loop
+    r+=1  #6
+
+              #when and when loop stop
+              #when full end---r==num//2+1
+              #whe break---in between  r !=num//2+1
+if  r==num//2+1:   #6==5+1
+    print("its prime number")
+[ no=1
+while  no<=5:
+    print(no)
+    no+=1
+else:
+    print("Else part of loop")
+
+
+num=int(input("Enter any number:"))  #python
+r=2
+while r<=num//2 :      #false----enter in else
+    if num%r==0: 
+        print("its not prime number")
+        break  
+    r+=1 
+else: # when enter in else ---> r==num//2+1
+    print("Its prime number")
+
+    #break----> outside the loop
+    
+    
+    
+ num=100
+while num>=10:
+    
+    num-=10
+    if num==20:
+        continue
+    print(num)
+else:
+    print(num)
+
+     #break----outside the loop  ( while  --else)
+                                                    
+                                                    HOMEWORK  
+
+
+print prime number between the range---> 1-100
+print prime number in range where start from 1 and end is defined by user
+print prime  number in range wehre start and end is defined by user
+
+count digit
+sum of digit
+reserve digit
+
+print prime number in range(1-1000)(whose digit sum is also a prime number)
+
+ 23---23--> 2+3=5(its also prime
+
+print prime in range whose digits are also prime
