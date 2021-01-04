@@ -63,3 +63,172 @@ for val in range(10,0,-1):
     
     
     count digit ,sum digit,reserve digit using while and for(?)
+    
+    
+    
+    
+    
+    #for range---- Pattern programming(star,number,alphabet,binary,mixed,based on maths(algo))
+
+#star=Base
+'''
+
+forward pattern
+*
+**
+*
+**
+***
+
+reverse pattern
+
+***
+**
+*
+**
+*'''
+for r in range(1,6):
+    for c in range(1,r+1):
+        print("*",end="")
+    print()
+
+for r in range(5): #range(5)--range(0,5,+1)=(0,1,2,3,4)
+    for c in range(r+1):  #range(0,1,+1)=(0)  ,range(2)--(0,2,+1)=(0,1)
+        print("*",end="")
+    print()
+
+for r in range(5,0,-1): #range(5,0,-1)=(5,4,3,2,1)
+    for c in range(5,r-1,-1): #(5,4,-1)=(5)
+        print("*",end="")
+    print()
+    
+    
+    
+    
+    #for range---- Pattern programming(star,number,alphabet,binary,mixed,based on maths(algo))
+
+#star=Base
+'''
+
+forward pattern
+*
+**
+*
+**
+***
+
+reverse pattern
+
+***
+**
+*
+**
+*
+
+mixed pattern
+space(reserve)+start-->forward =mix pattern
+----*  row1=(4spaces)C1+1star C2
+---* *  row2=(3spaces)C1+2starC2
+--* * *  row3=(2spaces)+3star
+-* * * *  row4=(1spaces)+4star
+* * * * * row5=(0spaces)+5star
+
+reverse pattern
+
+***
+**
+*
+**
+*
+
+
+
+
+'''
+    #range(1,6)=(1,2,3,4,5)
+for r in range(1,6):
+    #space(4,3,2,1)
+    for c in range(4,r-1,-1): #range(4,0,-1)=(4,3,2,1)
+        print(" ",end="")
+    #star(1,2,3,4,5)
+    for c in range(r): #range(0,1,+1)=(0)
+        print("* ",end="")
+    print()
+    
+                           
+                                                         HOMEWORK
+    
+    
+    
+*********** 11
+***** *****
+****   ****
+***     ***
+**       **
+*         *
+
+*          *
+**        **
+***      ***
+****    ****
+*****  *****
+************
+
+*****         
+****       
+***     
+**   
+*
+**
+***
+****
+*****
+
+
+----*
+---**
+--***
+-****
+*****
+ ****
+  ***
+   **
+    *
+
+
+***********
+***** *****
+****   ****
+***     ***
+**       **
+*         *
+*         *
+**       **
+***     ***
+****   ****
+***** *****
+***********
+
+
+*****
+ ****
+  ***
+   **
+    *
+   **
+  ***
+ ****
+*****
+
+
+
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+ 
